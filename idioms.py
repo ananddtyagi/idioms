@@ -3,16 +3,18 @@ from nltk.tokenize import word_tokenize
 from googletrans import Translator
 from fuzzywuzzy import fuzz
 import string
-translator = Translator()
+
 import csv
 from clean import filter
 
 def findIdioms(phrase):
     input = phrase
-
+    translator = Translator()
     detected = translator.detect(input)
-
+    print("DETECTED ", detected.lang)
     lang = detected.lang
+    if lang == "jazh-CN":
+        lang = "zh-CN" #issue with Japanese vs Chinese
     t = translator.translate(input, src = lang).text
     print("translation:", t)
     t = filter(t)
@@ -23,7 +25,7 @@ def findIdioms(phrase):
     idiom = ""
     found = False
     for row in csv_f:
-        if fuzz.token_set_ratio(row[2],t) > 80: #replaced an exact match with a fuzzy string comparison
+        if fuzz.token_set_ratio(row[2],t) > 60: #replaced an exact match with a fuzzy string comparison
             matches.append(row[0])
             found = True
     matches = list(set(matches))
