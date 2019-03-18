@@ -1,0 +1,16 @@
+google/cloud/__pycache__/translate.cpython-36.pyc,,
+google/cloud/translate.py,sha256=IRGclrk_N0BHTVGxVkHEwOwDtkGuZ5Fw-k9IJEKdv40,1008
+google/cloud/translate_v2/__init__.py,sha256=EXTO7rD-der2AXwqRtsuRHzqTHYb3xE831FUMCuCHrk,821
+google/cloud/translate_v2/__pycache__/__init__.cpython-36.pyc,,
+google/cloud/translate_v2/__pycache__/_http.cpython-36.pyc,,
+google/cloud/translate_v2/__pycache__/client.cpython-36.pyc,,
+google/cloud/translate_v2/_http.py,sha256=Hi1YgluKEx9rihBppUKqLaUqyOILA8qyDeZxrlTwzY8,1438
+google/cloud/translate_v2/client.py,sha256=9OSCfToWKQo8HoKj7kYz1sdnZVXSi8qeNrnDebs6bkY,9738
+google_cloud_translate-1.3.2-py3.6-nspkg.pth,sha256=b0D5dZk3RUzK54tZ9iZDvLm7u8ltc5EzYrGCmhsuoNw,1698
+google_cloud_translate-1.3.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+google_cloud_translate-1.3.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+google_cloud_translate-1.3.2.dist-info/METADATA,sha256=DDYaV8jDBclcNIU4pJa-XX3wsNg0JBmjxuyD5EOFf8Y,4654
+google_cloud_translate-1.3.2.dist-info/RECORD,,
+google_cloud_translate-1.3.2.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+google_cloud_translate-1.3.2.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_translate-1.3.2.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
