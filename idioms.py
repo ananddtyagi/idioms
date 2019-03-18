@@ -25,7 +25,7 @@ def findIdioms(phrase):
     idiom = ""
     found = False
     for row in csv_f:
-        if fuzz.token_set_ratio(row[2],t) > 60: #replaced an exact match with a fuzzy string comparison
+        if fuzz.token_set_ratio(row[2],t) > 75: #replaced an exact match with a fuzzy string comparison
             matches.append(row[0])
             found = True
     matches = list(set(matches))
