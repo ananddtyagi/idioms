@@ -1,4 +1,4 @@
-from lib/flask import Flask, render_template, request
+from /lib/flask import Flask, render_template, request
 from idioms import findIdioms
 
 app = Flask(__name__)
