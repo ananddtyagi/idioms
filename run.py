@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('idiomsList.html')
+    return render_template('index.html')
 
-@app.route('/',methods = ['POST', 'GET'])
+@app.route('/idiomList',methods = ['POST'])
 def result():
    if request.method == 'POST':
       phrase = request.form['phrase']
