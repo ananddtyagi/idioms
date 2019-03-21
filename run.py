@@ -18,6 +18,7 @@ def result():
       phrase = request.form['phrase']
       print(phrase)
       iList = findIdioms(phrase)
+      print(iList)
       return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
 
 
