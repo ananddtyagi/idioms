@@ -7,9 +7,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html', iList = ["iList", "lol", "hah","yeet"])
 
-@app.route('/',methods = ['GET'])
+@app.route('/',methods = ['GET', 'POST'])
 def result():
-   if request.method == 'GET':
+   if request.method == 'POST':
       phrase = request.form['phrase']
       iList = findIdioms(phrase)
       return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
