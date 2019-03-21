@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html', iList = ["iList", "lol", "hah","yeet"])
 
-@app.route('/',methods = ['GET'])
+@app.route('/',methods = ['POST'])
 def result():
     flash("WRSDFASDFSDF")
     phrase = request.form['phrase']
