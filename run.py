@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html', iList = ["iList", "lol", "hah","yeet"])
+    if i == 0:
+        i = i + 1
+        return render_template('index.html', iList = ["iList", "lol", "hah","yeet"])
+    return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
+
 
 @app.route('/',methods = ['POST'])
 def result():
