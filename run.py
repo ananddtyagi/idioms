@@ -14,12 +14,7 @@ def index(x):
 
 @app.route('/',methods = ['GET', 'POST'])
 def result():
-    index(1)
-    if request.method == 'POST':
-      phrase = request.form['phrase']
-      iList = findIdioms(phrase)
-      return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
-
+    return index(1)
 
 if __name__ == "__main__":
     app.run(debug = True)
