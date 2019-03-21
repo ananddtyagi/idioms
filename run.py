@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return index(0)
+def index(x):
     if x == 0:
         return render_template('index.html', iList = ["iList", "lol", "hah","yeet"])
     if x == 1:
