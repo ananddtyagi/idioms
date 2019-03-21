@@ -12,7 +12,7 @@ def result():
    if request.method == 'POST':
       phrase = request.form['phrase']
       iList = findIdioms(phrase)
-      return render_template("idiomList.html",iList = iList)
+      return render_template("index.html",iList = iList)
 
 
 if __name__ == "__main__":
