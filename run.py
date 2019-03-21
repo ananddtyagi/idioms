@@ -9,9 +9,10 @@ def index():
 
 @app.route('/',methods = ['GET'])
 def result():
-  phrase = request.form['phrase']
-  iList = findIdioms(phrase)
-  return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
+    flash("WRSDFASDFSDF")
+    phrase = request.form['phrase']
+    iList = findIdioms(phrase)
+    return render_template("index.html",iList = ["iList", "hello", "sup","damnnn"])
 
 
 if __name__ == "__main__":
