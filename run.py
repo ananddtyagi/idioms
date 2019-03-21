@@ -1,6 +1,6 @@
 from lib.flask import Flask, render_template, request
 from idioms import findIdioms
-
+i = 0
 app = Flask(__name__)
 
 @app.route('/')
