@@ -1,6 +1,4 @@
 from lib.flask import Flask, render_template, request
-from flask.ext.cors import CORS, cross_origin
-
 from idioms import findIdioms
 
 app = Flask(__name__)
