@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html', iList="")
 
-@app.route('/test', methods = ['GET'])
+@app.route('/test')
 def test():
     return 'Test String From Flash Server'
 
