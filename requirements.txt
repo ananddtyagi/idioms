@@ -36,7 +36,7 @@ scikit-learn==0.19.1
 scipy==1.1.0
 six==1.11.0
 uflash==1.2.4
-urllib3==1.22
+urllib3==1.26.5
 webencodings==0.5.1
 Werkzeug==0.14.1
 wikipedia==1.4.0
